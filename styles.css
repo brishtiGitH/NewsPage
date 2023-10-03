@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html,body{
+    width: 100%;
+  
+}
+body{
+    padding: 60px;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin:auto;
+    /* margin-bottom:10px; */
+    padding: 20px;
+    /* background-color: pink; */
+}
+header ul{
+    display: flex;
+   
+}
+
+header li{
+    list-style-type: none;
+    margin-right:2rem;
+    color: rgb(84, 82, 82);
+    font-size: 0.85rem;
+    font-weight: 700;
+    transition: color 0.15s;
+}
+header li:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+#menuIcon{
+    display: none;
+}
+#mobileMenu{
+    position: absolute;
+    top:0;
+    right: 0;
+    padding-left: 30px;
+    padding-top: 200px;
+    width: 65vw;
+    height:100vh;
+    background-color: white;
+    border:1px solid gray;
+    display: none;
+}
+#mobileMenu img{
+    position: absolute;
+    top:40px;
+    right: 40px;
+    width: 2.5rem;
+}
+
+#mobileMenu li{
+    list-style-type: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: hsl(240, 100%, 5%);
+    margin-bottom: 30px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 1.56rem;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 1rem;
+    /* border: 1px solid gray; */
+    padding: 20px;
+
+}
+
+.lbottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* column-gap: 20px; */
+}
+.lbottom h1{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    
+}
+
+.description{
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: hsl(236, 13%, 42%);
+}
+.btn{
+    border:none;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    text-transform: uppercase;
+    padding:12px 28px;
+    font-weight: 700;
+    letter-spacing: 0.15rem;
+    font-size: 0.75rem;
+    transition: color 0.15s, background-color 0.15s;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.image{
+    width: 100%;
+   margin-bottom:26px;
+    
+}
+.right{
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+    padding:0 1.25rem;
+    
+}
+.right h1{
+    color:hsl(35, 77%, 62%);
+    margin:1.75rem 0;
+    
+}
+
+.box {
+    border-bottom: 1px solid hsla(233, 8%, 79%, 0.555);
+    margin-bottom: 1.85rem;
+   
+}
+.box h4{
+    margin-bottom: 0.65rem;
+    transition: color 0.15s;
+}
+.box h4:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+.box p{
+    font-size: 0.85rem;
+    color:hsla(233, 8%, 79%, 0.89);
+    margin-bottom: 1.75rem;
+}
+#box3{
+    border:none;
+}
+.containerb{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    
+}
+.boxes{
+    display: flex;
+    height: 6.22rem;
+}
+.img{
+    margin-right: 20px;
+}
+.boxes h2{
+    color: hsla(233, 8%, 79%, 0.966);
+}
+.descriptions{
+    color: hsl(236, 13%, 42%);
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.headings{
+font-size: 0.9rem;
+    font-weight: bolder;
+    transition: color 0.15s;
+    
+}
+.headings:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+
