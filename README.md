@@ -4,4 +4,4 @@
 
 ![Design preview for the News homepage coding challenge](preview.png)    
 
-[LIVE SITE](news-page-wheat.vercel.app)
+[LIVE SITE](https://news-page-wheat.vercel.app/)
