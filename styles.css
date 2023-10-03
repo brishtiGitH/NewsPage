@@ -62,12 +62,11 @@ header li:hover{
     position: absolute;
     top:40px;
     right: 40px;
-    width: 2.5rem;
 }
 
 #mobileMenu li{
     list-style-type: none;
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 600;
     color: hsl(240, 100%, 5%);
     margin-bottom: 30px;
